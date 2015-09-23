@@ -45,3 +45,7 @@ cacheSolve <- function(x, ...) {
         x$setinverse(m)
         m        ## Return a matrix that is the inverse of 'x'
         }
+
+##  makeCacheMatrix and cacheSolve are based loosely on the functions makeVector and cacheMean 
+##  by rdpeng and are built on code stubs provided by rdpeng for the Coursera R-Programming 
+##  course assignment #2
